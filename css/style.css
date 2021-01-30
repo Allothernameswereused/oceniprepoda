@@ -1,0 +1,93 @@
+*:hover,
+*:focus,
+*:active,
+*.btn-outline-primary
+ {
+  outline: none;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+}
+.margintop{
+	margin-top: 170px!important;
+}
+.margintop2{
+	margin-top: 100px!important;
+}
+a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+}
+header{
+    border: 8px solid rgba(255,255,255,1);
+	border-bottom: 0;
+}
+footer{
+    border: 8px solid rgba(255,255,255,1);
+	border-top: 0;
+	
+}
+.title{
+    padding-top: 3px;
+}
+.search-box {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+}
+.form-number{
+    width: max-content;
+}
+.form-text{
+    height: 265px;
+}
+.form-search{
+    border-radius: 20px;
+}
+.btn, .btn:hover{
+    border: 2px solid rgba(255,255,255,1);
+    border-radius: 20px;
+}
+.btn-success{
+    background: rgba(178,207,54,1);
+    border: 2px solid rgba(178,207,54,1);
+    border-radius: 25px;
+}
+.btn-success:hover, .btn-success:focus{
+    background: rgba(172,198,53,1);
+    border: 2px solid rgba(178,207,54,1);
+    border-radius: 25px;
+}
+.btn-primary:focus{
+    border: 2px solid rgba(255,255,255,1);
+}
+.btn-outline-primary{
+    border: 2px solid #0d6efd;
+}
+.btn-form{
+    color:black;
+    border: 1px solid rgba(180,180,180, 1);
+}
+.btn-form:hover{
+    border: 1px solid #0d6efd;
+}
+.text {
+    font-family: Roboto;
+    font-weight: Regular;
+}
+.nom{
+    font-size: 40px;
+}
+.tag{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.tag-gray{
+    background: #d9dde0;
+    border-radius: 20px;
+    margin: 5px;
+}
+.navbar-toggler{
+    border-radius: 100%;
+    padding: 0.25em;
+}
